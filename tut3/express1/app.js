@@ -3,9 +3,8 @@ const express = require("express");
 const app = express();
 
 /*add product wala path agadi rakhnu ko karan 
-chai / dubai ma xa ra yedi / paila rakhe tyo dui
-palta jane bho so add product le ni / ma jana sako
-so paila thulo wala jaile*/
+chai '/' dubai ma xa ra yedi / paila rakhe tyo dui
+palta nei true hune bho so tala ko '/add-product' ma pugne thena kaile */
 app.use('/add-product',(req, res, next) => {
     console.log("hello");
     res.send("<h1>This is the add product section</h1>");
