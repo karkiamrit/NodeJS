@@ -1,0 +1,4 @@
+create a npm project and install Express.js(nodemon if you want)
+create an express.js app which funnels the requests through 2 middleware fxns that log something to console and return one response
+comment out any one middleware and handle requests to '/' and '/users' such that each request only has one middleware
+that does something with it(send dummy respone)

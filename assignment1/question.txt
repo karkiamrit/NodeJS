@@ -1,0 +1,6 @@
+spin up a node.js driver server(on port 3000)
+handle two routes :'/' and '/users'
+    return some greeting text on '/'
+    return a list of dummy users
+add a from with username input to page '/' and submit a post request to '/create-user' upon a button click.
+add the '/create-user' route and parse the incoming data (ie username) and simple log it to the console.

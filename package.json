@@ -1,0 +1,16 @@
+{
+  "name": "amrit",
+  "version": "1.0.0",
+  "description": "node js guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "helo",
+    "start": "nodemon tut3/express1/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
